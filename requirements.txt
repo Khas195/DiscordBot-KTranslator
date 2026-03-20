@@ -1,5 +1,5 @@
 # auto add other dependencies when needed by    pip install -r requirements.txt 
-discord.py
-deep_translator
-python-dotenv
-Flask
+discord.py~=2.7.1
+deep_translator~=1.11.4
+python-dotenv~=1.2.2
+Flask~=3.1.3
