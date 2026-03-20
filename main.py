@@ -73,4 +73,4 @@ async def on_reaction_add(reaction, user):
         await message.reply(translated_text)
 
 webserver.keep_alive()
-bot.run(token, log_handler=handler, log_level=logging.DEBUG)
+bot.run(token, log_handler=handler, log_level=logging.INFO)
